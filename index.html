@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coolors</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+  <body>
+    <main class="flex flex-center">
+      <header class="container"></header>
+      <div id="colors" class="flex">
+        <div class="color flex" style="background-color: #ff0000">
+          <div class="color__btns flex">
+            <i class="pointer bx bx-sm bx-x"></i>
+            <i class="pointer bx bx-sm bx-transfer"></i>
+            <i class="pointer bx bx-sm bx-copy"></i>
+          </div>
+          <div class="pointer color__text">FF0000</div>
+          <div class="button">
+            <button type="button" class="button-add">
+              <i class="bx bx-plus bx-md bx-tada-hover"></i>
+            </button>
+          </div>
+        </div>
+        <div class="color flex" style="background-color: #0000ff">
+          <div class="color__btns flex">
+            <i class="pointer bx bx-sm bx-x"></i>
+            <i class="pointer bx bx-sm bx-transfer"></i>
+            <i class="pointer bx bx-sm bx-copy"></i>
+          </div>
+          <div class="pointer color__text">0000FF</div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./src/chroma.min.js"></script>
+  <script type="module" src="./dist/main.js"></script>
+</html>
